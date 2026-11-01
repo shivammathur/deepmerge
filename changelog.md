@@ -1,3 +1,7 @@
+# 4.3.2+shivammathur.1
+
+- Reject `__proto__` keys in both merge operands before reading or copying them, including null-prototype targets and nested placeholders. Fixes [CVE-2026-93753](https://github.com/TehShrike/deepmerge/issues/273).
+
 # [4.3.1](https://github.com/TehShrike/deepmerge/releases/tag/v4.3.1)
 
 - Fix type definition for arrayMerge options.  [#239](https://github.com/TehShrike/deepmerge/pull/239)

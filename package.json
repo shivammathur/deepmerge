@@ -9,11 +9,11 @@
     "clone",
     "recursive"
   ],
-  "version": "4.3.1",
-  "homepage": "https://github.com/TehShrike/deepmerge",
+  "version": "4.3.2+shivammathur.1",
+  "homepage": "https://github.com/shivammathur/deepmerge",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TehShrike/deepmerge.git"
+    "url": "git+https://github.com/shivammathur/deepmerge.git"
   },
   "main": "dist/cjs.js",
   "engines": {
