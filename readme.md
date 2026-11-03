@@ -1,8 +1,8 @@
-# deepmerge
+# @shivammathur/deepmerge
 
 Merges the enumerable properties of two or more objects deeply.
 
-> UMD bundle is 723B minified+gzipped
+Patched fork of [deepmerge](https://github.com/TehShrike/deepmerge) 4.3.1 with prototype-poisoning protections. Preserves the upstream deepmerge API.
 
 ## Getting Started
 
@@ -57,10 +57,10 @@ merge(x, y) // => output
 With [npm](http://npmjs.org) do:
 
 ```sh
-npm install deepmerge
+npm install @shivammathur/deepmerge
 ```
 
-deepmerge can be used directly in the browser without the use of package managers/bundlers as well:  [UMD version from unpkg.com](https://unpkg.com/deepmerge/dist/umd.js).
+deepmerge can be used directly in the browser without the use of package managers/bundlers as well:  [UMD version from unpkg.com](https://unpkg.com/@shivammathur/deepmerge/dist/umd.js).
 
 
 ### Include
@@ -68,7 +68,7 @@ deepmerge can be used directly in the browser without the use of package manager
 deepmerge exposes a CommonJS entry point:
 
 ```
-const merge = require('deepmerge')
+const merge = require('@shivammathur/deepmerge')
 ```
 
 The ESM entry point was dropped due to a [Webpack bug](https://github.com/webpack/webpack/issues/6584).

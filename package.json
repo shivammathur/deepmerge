@@ -1,6 +1,6 @@
 {
-  "name": "deepmerge",
-  "description": "A library for deep (recursive) merging of Javascript objects",
+  "name": "@shivammathur/deepmerge",
+  "description": "A patched fork of deepmerge with prototype-poisoning protections",
   "keywords": [
     "merge",
     "deep",
@@ -9,7 +9,7 @@
     "clone",
     "recursive"
   ],
-  "version": "4.3.2+shivammathur.1",
+  "version": "4.3.2",
   "homepage": "https://github.com/shivammathur/deepmerge",
   "repository": {
     "type": "git",
@@ -38,5 +38,9 @@
     "typescript": "=2.2.2",
     "uglify-js": "^3.6.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
